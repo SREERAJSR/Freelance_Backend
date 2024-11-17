@@ -11,4 +11,5 @@ function configKey() {
     }
 }
 
-return configKey;
+module.exports = configKey;
+
