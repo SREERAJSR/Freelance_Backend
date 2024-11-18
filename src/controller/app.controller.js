@@ -28,7 +28,7 @@ module.exports = {
 
     }),
 
-    saveWhatsAppLink: asyncHandler(async (req, res, next) => {
+    sendWhatsAppLink: asyncHandler(async (req, res, next) => {
         const { numbers, businessName_id } = req.body;
 
         // Fetch business info
