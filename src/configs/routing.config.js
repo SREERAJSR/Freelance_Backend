@@ -1,7 +1,7 @@
 
 
 const routesConfig = async (app) => {
-    app.use('/api/admin')
+    app.use('/api/admin',()=>{})
 }
 
 module.exports = routesConfig

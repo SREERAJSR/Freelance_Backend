@@ -2,8 +2,9 @@
   "name": "freelance_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "nodemon app.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sreedev",
@@ -15,5 +16,8 @@
     "express-session": "^1.18.1",
     "mongoose": "^8.8.1",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }

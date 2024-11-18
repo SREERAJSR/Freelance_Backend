@@ -6,7 +6,7 @@ const configsKeys = require('./configKeys')
 
 const expressConfig = async (app) => {
     
-    app.use(morgan('dev')),
+    app.use(morgan('dev'))
         app.use(cookieParser()),
         app.use(express.json()),
         app.use(express.urlencoded({ extended: true })),
